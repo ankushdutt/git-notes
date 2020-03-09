@@ -7,7 +7,7 @@
 - Makes collaboration easier, allowing changes by multiple people to all be merged into one source.
 
 ### What is Github?
-    An online platform which work through Git. Other alternatives are "Gitlab", "Bitbucket".
+An online platform which work through Git. Other alternatives are "Gitlab", "Bitbucket".
 
 ### Steps to Create (local) Git respository:
 1. `git init`
