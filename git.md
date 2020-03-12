@@ -31,5 +31,6 @@ An online platform which work through Git. Other alternatives are [Gitlab](https
 2. Clone the **origin master** on your PC (local) using `git clone <url>`.
 3. `git checkout -b <new-branch>` to create and switch to a new branch.
 4. Do neccessary changes to contribute and **Commit**.
-5. Use `git push origin <new-branch>` from the <**new-branch**>.
-6. Make a pull request to merge **origin** <**new-branch**> with **upstream master** from Github.
+5. `git remote add upstream <url>` and then `git pull upstream master` to update your local files with latest version and resolve any merge conflicts which arises.
+6. Use `git push origin <new-branch>` from the <**new-branch**>.
+7. Make a pull request to merge **origin** <**new-branch**> with **upstream master** from Github.
