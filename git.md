@@ -7,7 +7,7 @@
 - Makes collaboration easier, allowing changes by multiple people to all be merged into one source.
 
 ### What is Github?
-An online platform which work through Git. Other alternatives are *Gitlab, Bitbucket.*
+An online platform which work through Git. Other alternatives are [Gitlab](https://about.gitlab.com), [Bitbucket](https://bitbucket.org/product).
 
 ### Steps to Create (local) Git repository:
 1. `git init`
@@ -27,9 +27,9 @@ An online platform which work through Git. Other alternatives are *Gitlab, Bitbu
 - Use `git checkout <id>` to currently use that commit.
 
 ### Steps to Contribute to Open Sources on Github:
-1. Fork.
-2. Clone it on your PC (local) using `git clone <url>`.
+1. Fork the **upstream**.
+2. Clone the **origin master** on your PC (local) using `git clone <url>`.
 3. `git checkout -b <new-branch>` to create and switch to a new branch.
 4. Do neccessary changes to contribute and **Commit**.
 5. Use `git push origin <new-branch>` from the <**new-branch**>.
-6. Make a pull request to merge **Origin** <**new-branch**> with **Upstream Master** from Github.
+6. Make a pull request to merge **origin** <**new-branch**> with **upstream master** from Github.
